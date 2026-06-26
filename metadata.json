@@ -1,0 +1,6 @@
+{
+  "name": "StructSplat",
+  "description": "Project page for StructSplat: Generalizable 3D Gaussian Splatting from Uncalibrated Sparse Views (ECCV submission)",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
