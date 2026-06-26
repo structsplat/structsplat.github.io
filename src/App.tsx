@@ -72,8 +72,24 @@ export default function App() {
             <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-sm sm:text-base font-semibold text-slate-800" id="authors-list">
               <span id="author-1">Jia-Chen Zhao<sup>1,2</sup></span>
               <span id="author-2">Beiqi Chen<sup>1</sup></span>
-              <span id="author-3" className="flex items-center gap-1">Xinyang Chen<sup>1 ✉</sup></span>
-              <span id="author-4" className="flex items-center gap-1">Guangcong Wang<sup>2,3 ✉</sup></span>
+              <a 
+                href="https://chenxinyang123.github.io/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-indigo-900 hover:text-indigo-700 hover:underline transition-all flex items-center gap-1"
+                id="author-3"
+              >
+                Xinyang Chen<sup>1 ✉</sup>
+              </a>
+              <a 
+                href="https://wanggcong.github.io/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-indigo-900 hover:text-indigo-700 hover:underline transition-all flex items-center gap-1"
+                id="author-4"
+              >
+                Guangcong Wang<sup>2,3 ✉</sup>
+              </a>
               <span id="author-5">Liqiang Nie<sup>1</sup></span>
             </div>
 
