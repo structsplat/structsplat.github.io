@@ -38,6 +38,9 @@ export default function Abstract() {
               id="teaser-image-element"
             />
           </div>
+          <p className="mt-4 text-center text-sm sm:text-base text-slate-600 font-medium" id="teaser-tldr">
+            <strong>TL;DR:</strong> We present StructSplat, a feed-forward and generalizable NVS framework that predicts 3D gaussians from uncalibrated images without requiring camera parameters.
+          </p>
         </div>
 
         <div className="flex flex-col gap-10" id="abstract-grid">
