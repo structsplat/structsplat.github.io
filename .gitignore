@@ -6,4 +6,4 @@ coverage/
 *.log
 .env*
 !.env.example
-assets/StructSplat_2606241821.mp4
+public/assets/StructSplat_2606241821.mp4
