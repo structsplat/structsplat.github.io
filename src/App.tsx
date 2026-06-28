@@ -125,7 +125,7 @@ export default function App() {
               className="px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-white rounded-xl text-sm font-semibold shadow-md shadow-slate-200/50 hover:shadow-slate-300/30 transition-all flex items-center gap-2"
               id="action-code"
             >
-              <Github className="w-4 h-4" /> Code Repo
+              <Github className="w-4 h-4" /> Code
             </a>
 
             {/* <a
