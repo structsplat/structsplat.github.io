@@ -589,7 +589,7 @@ export default function Comparison() {
                   <thead className="bg-slate-50/75 border-b border-slate-100" id="table-dl3dv-head">
                     <tr>
                       <th className="p-4 font-bold text-slate-500 text-xs uppercase">Method</th>
-                      <th className="p-4 font-bold text-slate-900 text-xs uppercase text-right">PSNR ↑ (dB)</th>
+                      <th className="p-4 font-bold text-slate-900 text-xs uppercase text-right">PSNR ↑</th>
                       <th className="p-4 font-bold text-slate-900 text-xs uppercase text-right">SSIM ↑</th>
                       <th className="p-4 font-bold text-slate-900 text-xs uppercase text-right">LPIPS ↓</th>
                     </tr>
