@@ -11,10 +11,10 @@ export default function IntroVideo() {
       document.head.appendChild(script1);
     }
 
-    // 2. Inject fast.wistia.com/embed/t8h16g2nlw.js if not already present
-    if (!document.querySelector('script[src="https://fast.wistia.com/embed/t8h16g2nlw.js"]')) {
+    // 2. Inject fast.wistia.com/embed/168y3or2hh.js if not already present
+    if (!document.querySelector('script[src="https://fast.wistia.com/embed/168y3or2hh.js"]')) {
       const script2 = document.createElement('script');
-      script2.src = 'https://fast.wistia.com/embed/t8h16g2nlw.js';
+      script2.src = 'https://fast.wistia.com/embed/168y3or2hh.js';
       script2.async = true;
       script2.type = 'module';
       document.head.appendChild(script2);
@@ -35,14 +35,14 @@ export default function IntroVideo() {
         {/* Video Player Frame */}
         <div className="bg-slate-950 rounded-2xl border border-slate-800 overflow-hidden shadow-xl relative" id="video-player-container">
           <style dangerouslySetInnerHTML={{ __html: `
-            wistia-player[media-id='t8h16g2nlw']:not(:defined) { 
-              background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/t8h16g2nlw/swatch'); 
+            wistia-player[media-id='168y3or2hh']:not(:defined) { 
+              background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/168y3or2hh/swatch'); 
               display: block; 
               filter: blur(5px); 
               padding-top: 56.25%; 
             }
           `}} />
-          <div dangerouslySetInnerHTML={{ __html: '<wistia-player media-id="t8h16g2nlw" aspect="1.7777777777777777"></wistia-player>' }} />
+          <div dangerouslySetInnerHTML={{ __html: '<wistia-player media-id="168y3or2hh" aspect="1.7777777777777777"></wistia-player>' }} />
         </div>
       </div>
     </section>

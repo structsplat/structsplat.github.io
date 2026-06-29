@@ -7,3 +7,4 @@ coverage/
 .env*
 !.env.example
 public/assets/StructSplat_2606241821.mp4
+.gitignore
