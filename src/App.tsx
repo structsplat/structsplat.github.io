@@ -110,12 +110,13 @@ export default function App() {
           {/* Styled Action Buttons */}
           <div className="flex flex-wrap justify-center items-center gap-3 pt-4" id="header-actions">
             <a
-              href="#abstract-section"
-              onClick={(e) => { e.preventDefault(); scrollToSection('abstract-section'); }}
+              href="https://arxiv.org/abs/2606.28321"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-sm font-semibold shadow-md shadow-indigo-200/50 hover:shadow-indigo-300/60 transition-all flex items-center gap-2"
               id="action-paper"
             >
-              <FileText className="w-4 h-4" /> Paper (TBD)
+              <FileText className="w-4 h-4" /> Paper
             </a>
             
             <a
